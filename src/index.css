@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #f4f6f9;
+  --card-color: #ffffff;
+  --text-color: #222222;
+  --secondary-text: #6b7280;
+  --border-color: #d1d5db;
+  --input-bg: #ffffff;
+  --button-bg: #7c5cff;
+  --table-header: #f3f4f6;
+}
+
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --card-color: #1f2937;
+  --text-color: #ffffff;
+  --secondary-text: #9ca3af;
+  --border-color: #374151;
+  --input-bg: #111827;
+  --button-bg: #7c5cff;
+  --table-header: #1a2234;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+  background: var(--input-bg);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

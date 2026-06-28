@@ -1,0 +1,26 @@
+.searchContainer {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px 14px 45px;
+  border: 1px solid #2a3248;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  font-size: 15px;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.icon {
+  position: absolute;
+  left: 16px;
+  top: 15px;
+  color: #9ca3af;
+}

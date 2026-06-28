@@ -1,0 +1,88 @@
+.tableWrapper {
+  overflow-x: auto;
+  background: #161d2e;
+  border-radius: 12px;
+  border: 1px solid #2a3248;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.table th {
+  padding: 18px;
+  text-align: left;
+  background: #1c2336;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 18px;
+  border-top: 1px solid #2a3248;
+}
+
+.table tr:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #7c5cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.it {
+  background: rgba(59,130,246,0.2);
+  color: #60a5fa;
+}
+
+.hr {
+  background: rgba(239,68,68,0.2);
+  color: #f87171;
+}
+
+.sales {
+  background: rgba(234,179,8,0.2);
+  color: #facc15;
+}
+
+.marketing {
+  background: rgba(168,85,247,0.2);
+  color: #c084fc;
+}
+
+.finance {
+  background: rgba(34,197,94,0.2);
+  color: #4ade80;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+}
+
+.actions button:hover {
+  background: #7c5cff;
+}

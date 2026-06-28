@@ -1,0 +1,43 @@
+.navbar {
+  background: white;
+  padding: 20px 40px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 30px;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.tagline {
+  color: #666;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+:global(body.dark) .navbar {
+  background: #1e1e1e;
+}
+
+:global(body.dark) .tagline {
+  color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .tagline {
+    font-size: 12px;
+  }
+}
