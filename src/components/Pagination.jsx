@@ -9,6 +9,7 @@ function Pagination({
   totalPages,
   setCurrentPage,
   totalUsers,
+  currentUsers,
   usersPerPage,
   setUsersPerPage,
 }) {
@@ -19,8 +20,8 @@ function Pagination({
   return (
     <div className={styles.pagination}>
       <div className={styles.left}>
-        Showing {totalUsers} users
-      </div>
+  Showing {currentUsers} of {totalUsers} users
+</div>
 
       <div className={styles.right}>
         <div className={styles.rows}>

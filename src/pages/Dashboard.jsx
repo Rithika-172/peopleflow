@@ -317,11 +317,12 @@ const [sortOrder, setSortOrder] = useState("asc");
             }}
           />
 
-         <Pagination
+        <Pagination
   currentPage={currentPage}
   totalPages={totalPages}
   setCurrentPage={setCurrentPage}
   totalUsers={filteredUsers.length}
+  currentUsers={currentUsers.length}
   usersPerPage={usersPerPage}
   setUsersPerPage={setUsersPerPage}
 />
